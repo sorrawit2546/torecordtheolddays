@@ -1,0 +1,97 @@
+body , html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./Photos/background-website.JPG) repeat center center fixed;
+    background-size: cover;
+}
+
+.photo {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.photo img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: white;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 1px 1px 20px white;
+}
+.name{
+    text-align: center;
+}
+
+.name > h1{
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: #000a;
+    box-shadow: 1px 1px 19px black;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    
+}
+
+.link-bio {
+    font-size: 20px;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.link-bio  > li {
+    background-color: #fffa;
+    border-radius: 100px;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    list-style: none;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
+
+a > img {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.link-bio :hover {
+    box-shadow: 1px 1px 20px wheat;
+
+}
+
+.link-bio > li :hover {
+    box-shadow: none;
+}
+
+.writeby {
+    text-align: center;
+    color: black;
+    background-color: #fffa;
+    border-radius: 100px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}
