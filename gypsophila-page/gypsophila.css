@@ -5,6 +5,7 @@ body {
     background : white;
 }
 .sidebar {
+    background: white;
     position: fixed;
     top: 0px;
     left: 0px;
