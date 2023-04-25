@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+.logo-site {
+    border-radius: 100px;
+}
+
 .photo {
     margin-top: 2rem;
     text-align: center;
@@ -84,8 +88,8 @@ a{
 
 .writeby {
     text-align: center;
-    color: black;
-    background-color: #fffa;
+    color: white;
+    font-size: 12px;
     border-radius: 100px;
     margin-top: 200px;
     margin-bottom: 20px;
@@ -93,5 +97,4 @@ a{
     margin-right: 120px;
     padding-top: 5px;
     padding-bottom: 5px;
-    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
