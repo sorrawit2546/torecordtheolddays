@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Record The Old Days</title>
     <link rel="stylesheet" href="index.css">
+   
+    
 </head>
 <body>
     <div class = photo>
@@ -19,13 +21,13 @@
     </header>
     <ul class="link-bio">
         <li>
-            <a href="https://www.google.com/?client=safari">
+            <a href="https://torecordtheolddays.com/" target="_blank">
                 <img src="./Photos/home.JPG" alt="">
                 Official Website
             </a>
         </li>
         <li>
-            <a href="./gypsophila-page/gypsophila.html">
+            <a href="./gypsophila-page/gypsophila.html" target="_blank">
                 <img src="./gypsophila-page/Img/gyp-img.jpg" alt="">
                 gypsophila.vtg
             </a>
@@ -37,13 +39,67 @@
             </a>
         </li>
         <li>
-            <a href="https://www.google.com/?client=safari">
+            <a href="https://www.instagram.com/nine_sorrawit/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr&fbclid=IwAR26K-q2cQoKfvq1iO6ZpYGYwqm6APjvnV3fff4OPPi7KU_SgOWXiF-PS6E" target="_blank">
                 <img src="./gypsophila-page/Img/in-img.jpg" alt="">
                 Instargram
             </a>
         </li>
     </ul>
-    <div class = "writeby"> ** Write by @Sorrawit Sangmanee. with HTML & CSS & JavaScript **</div>
+
+    <div class="duck">
+        <img src="Photos\giphy (1).gif" alt="">
+    </div>
+
+    
+    <div class = "countdown">
+        <p>
+            Website Is Under ปรับปรุง และ ต่อเติม!</p>
+        <h1>We're <span class="span-text">Launching</span> Soon</h1>
+    </div>
+
+    
+
+    <div class="launch-time">
+        <div>
+            <p id="days">00</p>
+            <span>Days</span>
+        </div>
+        <div>
+            <p id="hours">00</p>
+            <span>Hours</span>
+        </div>
+        <div>
+            <p id="minutes">00</p>
+            <span>Minutes</span>
+        </div>
+        <div>
+            <p id="seconds">00</p>
+            <span>Seconds</span>
+        </div>
+    </div>
+
+    <script>
+        var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+        },1000);
+    </script>
+   
+
+    <div class = "writeby"> ** Develop by <span>@Sorrawit Sangmanee.</span> with HTML & CSS & JavaScript **</div>
+    <div class = "writefor">! personal website for <span>learning skills</span> !</div>
     
 </body>
 </html>

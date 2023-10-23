@@ -6,6 +6,8 @@ body , html {
 body {
     background: url(./Photos/background-website.JPG) repeat center center fixed;
     background-size: cover;
+    display: grid;
+    place-items: center;
 }
 
 .logo-site {
@@ -47,9 +49,11 @@ body {
 }
 
 .link-bio {
+    width: 600px;
     font-size: 20px;
     text-align: center;
     padding-right: 40px;
+    
 }
 
 .link-bio  > li {
@@ -92,9 +96,97 @@ a{
     font-size: 13px;
     border-radius: 100px;
     margin-top: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 120px;
     margin-right: 120px;
     padding-top: 5px;
+}
+.writeby > span{
+    color: rgb(217, 255, 0);
+    font-size: 15px;
+}
+
+.countdown{
+    text-align: center;
+    color: #fff;
+}
+
+.countdown{
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+.countdown > p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.countdown > h1{
+    text-align: center;
+    color: #fff;
+    
+}
+
+.span-text{
+    color: rgb(217, 255, 0);
+    font-size: 40px;
+}
+
+
+
+
+
+.launch-time{
+    
+    text-align: center;
+    
+    
+}
+
+.launch-time div{
+    color: #fff;
+    text-align: center;
+    flex-basis:100px;
+    margin-top: -54px;
+}
+
+.launch-time > div > p{
     padding-bottom: 5px;
+    font-size: 80px;
+    margin-bottom: -14px;
+}
+
+.launch-time > div > span{
+    text-align: center;
+}
+
+
+
+.duck{
+    justify-content: center;
+    display: flex;
+    height: 150px;
+}
+
+.countdown > img{
+    height: 50px;
+}
+
+.writefor {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+
+.writefor > span{
+    color: rgb(217, 255, 0);;
+    font-size: 20px;
 }
