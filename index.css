@@ -190,3 +190,24 @@ a{
     color: rgb(217, 255, 0);;
     font-size: 20px;
 }
+
+.Login-button > button,
+.register > button {
+    display: inline-block;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px; 
+    padding: 10px 20px;
+    margin: 5px; 
+    
+}
+
+.Login-button > button:hover{
+    box-shadow: 1px 1px 20px wheat;
+}
+
+.Login-button, .register {
+    margin: 20px; /* ปรับตามต้องการ */
+    margin-left: 1500px;
+}
+
